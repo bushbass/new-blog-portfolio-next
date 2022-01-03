@@ -1,0 +1,20 @@
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid #4b4b4b;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
