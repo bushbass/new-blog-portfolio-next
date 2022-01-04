@@ -12,14 +12,15 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Alex Nielsen </h1>
-        <Image
-          className={styles.myPhoto}
-          src="/images/me-wearing-hat.jpg"
-          alt="Alex Nielsen wearing a baseball cap"
-          width={200}
-          height={200}
-        />
+        <h1 className={styles.title}>Alex Nielsen </h1>{' '}
+        <div className="image-wrapper">
+          <Image
+            src="/images/me-wearing-hat.jpg"
+            alt="Alex Nielsen wearing a baseball cap"
+            width={200}
+            height={200}
+          />
+        </div>
       </main>
     </div>
   );

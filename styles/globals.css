@@ -14,6 +14,32 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* my styles */
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 50vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image-wrapper {
+  margin-top: 40px;
+  box-sizing: content-box;
+  border: 7px solid black;
+  border-radius: 50%;
+}
+/* the magic happens here */
+.image-wrapper > span {
+  padding-top: 20px;
+  border-radius: 50%;
+}
 /* Hamburger menu styling */
 /* Position and sizing of burger button */
 .bm-burger-button {
@@ -56,7 +82,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* General sidebar styles */
 .bm-menu {
-  background: #373a47;
+  background: #373a47ef;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }
@@ -68,7 +94,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* Wrapper for item list */
 .bm-item-list {
-  color: #b8b7ad;
+  color: #e7e3b0;
   padding: 0.8em;
   /* I added the next two items because adding the Link tag from NextJS made the entries row instead of column orientation */
   display: flex;

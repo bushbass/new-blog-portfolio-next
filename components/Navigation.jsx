@@ -14,6 +14,16 @@ function Navigation() {
           About
         </a>
       </Link>
+      <Link href="/projects">
+        <a id="about" className="menu-item">
+          Projects
+        </a>
+      </Link>
+      <Link href="/blog">
+        <a id="about" className="menu-item">
+          Blog
+        </a>
+      </Link>
       <Link href="/contact">
         <a id="contact" className="menu-item">
           Contact
