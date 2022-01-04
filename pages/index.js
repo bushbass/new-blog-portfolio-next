@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Alex Nielsen </h1>{' '}
+        <h1 className={styles.title}>Alex Nielsen </h1>
         <div className="image-wrapper">
           <Image
             src="/images/me-wearing-hat.jpg"
