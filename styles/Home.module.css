@@ -93,3 +93,7 @@
     flex-direction: column;
   }
 }
+
+.myPhoto {
+  border-radius: 50%;
+}
