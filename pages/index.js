@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Image from 'next/image';
+import SocialIcons from '../components/SocialIcons';
 
 export default function Home() {
   return (
@@ -22,6 +23,30 @@ export default function Home() {
           />
         </div>
       </main>
+      {console.log('Social Icons are from https://designmodo.com/')}
+      <section>
+        <h3>TECHNICAL SKILLS</h3>
+        <p>
+          HTML, CSS, JavaScript, React, Gatsby, Node/Express, MERN, REST APIs,
+          Bootstrap, Git, Responsive Web Design, Photoshop{' '}
+        </p>
+        <h3>SOFT SKILLS</h3>
+        <p>
+          Eager to learn and develop new skills, Adaptable, Strong Work Ethic,
+          Great Customer Service, Effective Communicator
+        </p>
+
+        <div>
+          <p>
+            I'm a freelance web developer looking to make a move back into
+            full-time. Ideally I'd like to be working in music/entertainment or
+            education (I spent a few years teaching music), but I would be very
+            happy working anywhere that has a supportive team and that will
+            allow me to continue learning and growing my skills.
+          </p>
+        </div>
+        <SocialIcons />
+      </section>
     </div>
   );
 }
