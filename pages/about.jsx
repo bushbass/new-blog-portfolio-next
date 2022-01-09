@@ -1,12 +1,12 @@
-import Image from 'next/image';
+import Image from 'next/image'
 function About() {
   return (
-    <main className="main">
-      <h1 className="title">About </h1>
-      <div>
+    <main className='main'>
+      <h1 className='title'>About </h1>
+      <div className='container'>
         <h1>About Me</h1>
         <p>
-          <a href="http://AlexNielsen.net/resume">Link to my current resume</a>
+          <a href='http://AlexNielsen.net/resume'>Link to my current resume</a>
         </p>
         <div>
           I&apos;ve loved computers for a long time. Although I studied music in
@@ -15,7 +15,7 @@ function About() {
           come back to web development. Not long ago I decided to try to keep
           pace with the new technologies in web development and I&apos;ve been
           doing projects to showcase my skills.{' '}
-          <a href="https://www.youtube.com/channel/UCqdNQHOLz3PmB4cDvQkdQ1w/">
+          <a href='https://www.youtube.com/channel/UCqdNQHOLz3PmB4cDvQkdQ1w/'>
             I have a YouTube channel
           </a>{' '}
           where I talk about web development and I&apos;ve even given a few
@@ -25,9 +25,9 @@ function About() {
             <Image
               width={150}
               height={100}
-              src="/images/alex-presenting.png"
-              className="presenting-image"
-              alt="Alex Nielsen doing a presentation at a Meetup"
+              src='/images/alex-presenting.png'
+              className='presenting-image'
+              alt='Alex Nielsen doing a presentation at a Meetup'
             />
           </p>
           <p>
@@ -47,14 +47,14 @@ function About() {
             I&apos;m currently living almost in the country, in northwest New
             Jersey, the Garden State. Wife, two kids, two dogs and a cat. I love
             my vegetable garden (and attempting to keep the deer out of it) and
-            my wife and I are tyring our best to maintain a healthy lifestyle.
+            my wife and I are trying our best to maintain a healthy lifestyle.
             We try to keep in shape so our yearly Spartan Race is not that tough
             on us (we even have the kids into the mud races too!).
           </p>
         </div>
       </div>
     </main>
-  );
+  )
 }
 
-export default About;
+export default About
