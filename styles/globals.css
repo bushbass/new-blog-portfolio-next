@@ -40,6 +40,13 @@ a {
   padding-top: 20px;
   border-radius: 50%;
 }
+.social-image-wrapper {
+  box-sizing: content-box;
+}
+/* the magic happens here */
+.social-image-wrapper > a {
+  margin-right: 10px;
+}
 /* Hamburger menu styling */
 /* Position and sizing of burger button */
 .bm-burger-button {
@@ -112,8 +119,4 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 .social-image-container {
   margin-top: 20px;
-}
-.social-image {
-  width: 60px;
-  margin-right: 10px;
 }

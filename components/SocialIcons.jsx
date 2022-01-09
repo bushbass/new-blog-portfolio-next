@@ -1,46 +1,46 @@
-import Image from 'next/image';
+import Image from 'next/image'
 
 function SocialIcons() {
   return (
-    <div className="social-image-container">
-      <a href="http://AlexNielsen.com/resume">
+    <div className='social-image-wrapper'>
+      <a href='http://AlexNielsen.com/resume'>
         <Image
-          width={40}
-          height={40}
-          className="social-image"
+          width={60}
+          height={60}
+          className='social-image'
           src={`/images/social/gmail.png`}
-          alt="gmail logo"
+          alt='gmail logo'
         />
       </a>
-      <a href="https://linkedin.com/in/alex-nielsen-nj">
+      <a href='https://linkedin.com/in/alex-nielsen-nj'>
         <Image
-          width={40}
-          height={40}
-          className="social-image"
+          width={60}
+          height={60}
+          className='social-image'
           src={`/images/social/linkedin.png`}
-          alt="linkedin logo"
+          alt='linkedin logo'
         />
       </a>
-      <a href="https://twitter.com/BigAlsHouse">
+      <a href='https://twitter.com/BigAlsHouse'>
         <Image
-          width={40}
-          height={40}
-          className="social-image"
+          width={60}
+          height={60}
+          className='social-image'
           src={`/images/social/twitter.png`}
-          alt="twitter logo"
+          alt='twitter logo'
         />
       </a>
-      <a href="https://www.youtube.com/channel/UCqdNQHOLz3PmB4cDvQkdQ1w/">
+      <a href='https://www.youtube.com/channel/UCqdNQHOLz3PmB4cDvQkdQ1w/'>
         <Image
-          width={40}
-          height={40}
-          className="social-image"
+          width={60}
+          height={60}
+          className='social-image'
           src={`/images/social/youtube.png`}
-          alt="youtube logo"
+          alt='youtube logo'
         />
       </a>
     </div>
-  );
+  )
 }
 
-export default SocialIcons;
+export default SocialIcons
