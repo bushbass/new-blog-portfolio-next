@@ -1,10 +1,12 @@
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
-function BlogCard() {
+function BlogCard({ post }) {
   return (
-    <a href='https://nextjs.org/docs' className={styles.card}>
-      <h2>Documentation &rarr;</h2>
-      <p>Find in-depth information about Next.js features and API.</p>
-    </a>
+    <Link href={`/blog/${post.slug}`}>
+      <a classname={styles.card}>
+        <h2>{post.frontmatter.title} &rarr;</h2>
+      </a>
+    </Link>
   )
 }
 
