@@ -1,12 +1,12 @@
 ---
-title: "Responsive landing page based on client requirements."
-date: "2019-01-18"
-categories: 
-  - "css"
-  - "html"
+title: 'Responsive landing page based on client requirements.'
+date: '2019-01-18'
+categories:
+  - 'css'
+  - 'html'
 ---
 
-![](images/desktop-preview.jpg)
+![](/images/blog-images/desktop-preview.jpg)
 
 #### [Huddle landing page](https://bushbass.github.io/huddle-landing-page-679023/)
 

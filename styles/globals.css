@@ -19,7 +19,19 @@ a {
 .container {
   padding: 0 2rem;
 }
-
+.title,
+.description {
+  text-align: center;
+}
+.blog-title {
+  padding-top: 60px;
+}
+.hamburger-menu {
+  flex-direction: row-reverse;
+}
+.blog-content img {
+  height: 300px;
+}
 .main {
   min-height: 50vh;
   padding: 4rem 0;

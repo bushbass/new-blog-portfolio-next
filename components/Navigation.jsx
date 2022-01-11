@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 function Navigation() {
   return (
-    <Menu pageWrapId={'page-wrap'}>
+    <Menu pageWrapId={'page-wrap'} width={'180px'}>
       <Link href="/">
         <a id="home" className="menu-item">
           Home

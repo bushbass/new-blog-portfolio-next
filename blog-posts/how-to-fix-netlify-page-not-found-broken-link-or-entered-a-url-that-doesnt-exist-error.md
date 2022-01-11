@@ -1,11 +1,11 @@
 ---
-title: "How to fix Netlify \"page not found, broken link or entered a URL that doesn't exist\" error"
-date: "2019-12-06"
+title: 'How to fix Netlify "page not found, broken link or entered a URL that doesn''t exist" error'
+date: '2019-12-06'
 ---
 
 I made a simple React app with React router that worked while clicking the links in the nav, but not if you enter those URLs in the location bar.
 
-![](images/netlify-broken-link-300x137.png)
+![](/images/blog-images/netlify-broken-link-300x137.png)
 
 Netlify - Page Not Found  
 Looks like you've followed a broken link or entered a URL that doesn't exist on this site.
