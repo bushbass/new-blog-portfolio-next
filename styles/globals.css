@@ -19,6 +19,18 @@ a {
 .container {
   padding: 0 2rem;
 }
+.skills {
+  max-width: 750px;
+}
+.about-body {
+  min-height: 50vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .title,
 .description {
   text-align: center;
@@ -59,6 +71,15 @@ a {
 .social-image-wrapper > a {
   margin-right: 10px;
 }
+.presenting-image-wrapper {
+  box-sizing: content-box;
+  float: right;
+}
+/* the magic happens here */
+.presenting-image-wrapper > a {
+  margin-right: 10px;
+}
+
 /* Hamburger menu styling */
 /* Position and sizing of burger button */
 .bm-burger-button {

@@ -7,13 +7,16 @@ import Link from 'next/link';
 
 function PostPage({ frontmatter: { title, date, type }, slug, content }) {
   return (
-    <div className="container">
-      <h1 className="title blog-title">{title}</h1>
-      <p>{date}</p>
-      <div
-        className="blog-content"
-        dangerouslySetInnerHTML={{ __html: marked(content) }}
-      ></div>
+    <div className="container ">
+      {' '}
+      <div className="main ">
+        <h1 className="title blog-title">{title}</h1>
+        <p>{date}</p>
+        <div
+          className="blog-content skills"
+          dangerouslySetInnerHTML={{ __html: marked(content) }}
+        ></div>
+      </div>
     </div>
   );
 }

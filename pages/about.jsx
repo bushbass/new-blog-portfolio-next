@@ -1,12 +1,11 @@
-import Image from 'next/image'
+import Image from 'next/image';
 function About() {
   return (
-    <main className='main'>
-      <h1 className='title'>About </h1>
-      <div className='container'>
+    <div className="container about-body">
+      <main className="main skills">
         <h1>About Me</h1>
         <p>
-          <a href='http://AlexNielsen.net/resume'>Link to my current resume</a>
+          <a href="http://AlexNielsen.net/resume">Link to my current resume</a>
         </p>
         <div>
           I&apos;ve loved computers for a long time. Although I studied music in
@@ -15,20 +14,22 @@ function About() {
           come back to web development. Not long ago I decided to try to keep
           pace with the new technologies in web development and I&apos;ve been
           doing projects to showcase my skills.{' '}
-          <a href='https://www.youtube.com/channel/UCqdNQHOLz3PmB4cDvQkdQ1w/'>
+          <a href="https://www.youtube.com/channel/UCqdNQHOLz3PmB4cDvQkdQ1w/">
             I have a YouTube channel
           </a>{' '}
           where I talk about web development and I&apos;ve even given a few
           talks at a local freeCodeCamp Meetup group.{' '}
           <p>
             {' '}
-            <Image
-              width={150}
-              height={100}
-              src='/images/alex-presenting.png'
-              className='presenting-image'
-              alt='Alex Nielsen doing a presentation at a Meetup'
-            />
+            <div className="presenting-image-wrapper">
+              <Image
+                width={384}
+                height={291}
+                src="/images/alex-presenting.png"
+                className="presenting-image"
+                alt="Alex Nielsen giving a presentation at a Meetup"
+              />
+            </div>
           </p>
           <p>
             HTML and CSS are the mainstays of course, but I&apos;ve really come
@@ -52,9 +53,9 @@ function About() {
             on us (we even have the kids into the mud races too!).
           </p>
         </div>
-      </div>
-    </main>
-  )
+      </main>
+    </div>
+  );
 }
 
-export default About
+export default About;
