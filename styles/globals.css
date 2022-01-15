@@ -16,6 +16,10 @@ a {
 }
 
 /* my styles */
+
+.blog-content a {
+  color: #b900ca;
+}
 .container {
   padding: 0 2rem;
 }
