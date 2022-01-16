@@ -16,9 +16,17 @@ function ProjectPage({
       <div className='main '>
         <h1 className='title blog-title'>{title}</h1>
         <p>{appType}</p>
-        <div
-          className='blog-content skills'
-          dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
+        <div className='blog-content skills'>
+          <div>
+            <a href={repo}>Link to github repo</a>
+          </div>
+          <div>
+            <a href={demo}>Link to demo</a>
+          </div>
+          <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
+          <div>SKills: {skills}</div>
+          <div>Hosted on {hosting}</div>
+        </div>
       </div>
     </div>
   )

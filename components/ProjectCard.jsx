@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
-function BlogCard({ post }) {
+function ProjectCard({ post }) {
   return (
     <Link href={`/projects/${post.projectName}`}>
       <a className={styles.card}>
@@ -11,4 +11,4 @@ function BlogCard({ post }) {
   )
 }
 
-export default BlogCard
+export default ProjectCard
