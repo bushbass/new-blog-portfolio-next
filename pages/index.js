@@ -25,7 +25,7 @@ export default function Home() {
         <section className="skills {styles.skills}">
           <h3>TECHNICAL SKILLS</h3>
           <p>
-            HTML, CSS, JavaScript, React, Gatsby, Node/Express, MERN, REST APIs,
+            HTML, CSS, JavaScript, React, Next.js, Gatsby, Node/Express, MERN, REST APIs,
             Bootstrap, Git, Responsive Web Design, Photoshop{' '}
           </p>
           <h3>SOFT SKILLS</h3>
