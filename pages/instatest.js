@@ -1,5 +1,9 @@
 function instatest() {
-  return <div>instagram test page</div>;
+  return (
+    <div>
+      <h1>instagram test page</h1>
+    </div>
+  );
 }
 
 export default instatest;
