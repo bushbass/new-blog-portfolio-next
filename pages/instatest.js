@@ -1,9 +1,13 @@
-function instatest() {
+import styles from '../styles/Instatest.module.css';
+
+function Instatest() {
   return (
-    <div>
-      <h1>instagram test page</h1>
+    <div className={styles.container}>
+      <div className="main">
+        <h1>instagram test page!</h1>
+      </div>
     </div>
   );
 }
 
-export default instatest;
+export default Instatest;
