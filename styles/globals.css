@@ -58,11 +58,14 @@ a {
   justify-content: center;
   align-items: center;
 }
-.image-wrapper {
+/* .image-wrapper {
   margin-top: 40px;
   box-sizing: content-box;
   border: 7px solid black;
   border-radius: 50%;
+} */
+.image-wrapper{
+  margin-top: 40px;
 }
 /* the magic happens here */
 .image-wrapper > span {
