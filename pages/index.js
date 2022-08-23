@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Alex Nielsen </h1>
+        <h1 className={styles.title}>Alex Nielsen</h1>
         <div className="image-wrapper">
           {/* <Image
             src="/images/me-wearing-hat.jpg"
@@ -21,7 +21,7 @@ export default function Home() {
             width={200}
             height={200}
           /> */}
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/j44vqjIN1kw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          <iframe width="350" height="315" src="https://www.youtube.com/embed/j44vqjIN1kw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
         <section className="skills {styles.skills}">
           <h3>TECHNICAL SKILLS</h3>
