@@ -21,7 +21,7 @@ export default function Home() {
             width={200}
             height={200}
           /> */}
-          <iframe width="350" height="315" src="https://www.youtube.com/embed/j44vqjIN1kw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          <iframe width="350" height="315" src="https://www.youtube.com/embed/j44vqjIN1kw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen rel='0'></iframe>
         </div>
         <section className="skills {styles.skills}">
           <h3>TECHNICAL SKILLS</h3>
