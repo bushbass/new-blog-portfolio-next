@@ -43,10 +43,10 @@ export default function Home() {
                 <strong>
                   <em>NEW!</em>
                 </strong>{' '}
-                Code walkthroughs. I'm adding video walkthroughs of my coding
-                projects. I'll go through the app and explain what the code does
-                and why it's there. The first one is is a PERN stack project and{' '}
-                <strong>you can watch it here</strong>.
+                Code walkthroughs. I&lsquo;m adding video walkthroughs of my
+                coding projects. I&lsquo;ll go through the app and explain what
+                the code does and why it&lsquo;s there. The first one is is a
+                PERN stack project and <strong>you can watch it here</strong>.
               </a>
             </Link>
           </div>
