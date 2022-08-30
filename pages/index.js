@@ -1,33 +1,51 @@
-import Head from 'next/head';
-import styles from '../styles/Home.module.css';
-import Image from 'next/image';
-import SocialIcons from '../components/SocialIcons';
+import Head from 'next/head'
+import styles from '../styles/Home.module.css'
+import Image from 'next/image'
+import SocialIcons from '../components/SocialIcons'
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
         <title>Alex Nielsen - Web Developer</title>
-        <meta name="description" content="Personal home page for Alex Nielsen.  A web developer from New Jersey, USA" />
-        <link rel="icon" href="/favicon.ico" />
+        <meta
+          name='description'
+          content='Personal home page for Alex Nielsen.  A web developer from New Jersey, USA'
+        />
+        <link rel='icon' href='/favicon.ico' />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>Alex Nielsen</h1>
-        <div className="image-wrapper">
+        <div className='image-wrapper'>
           {/* <Image
             src="/images/me-wearing-hat.jpg"
             alt="Alex Nielsen wearing a baseball cap"
             width={200}
             height={200}
           /> */}
-          <iframe width="350" height="315" src="https://www.youtube.com/embed/j44vqjIN1kw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen rel='0'></iframe>
+          <iframe
+            width='300'
+            height='300'
+            src='https://www.youtube.com/embed/j44vqjIN1kw'
+            title='YouTube video player'
+            frameBorder='0'
+            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+            allowFullScreen
+            rel='0'></iframe>
         </div>
-        <section className="skills {styles.skills}">
+
+        <section className='skills {styles.skills}'>
+          <div className={`${styles.new} ${styles.container}`}>
+            <em>NEW!</em> Code walkthroughs. I'm adding video walkthroughs of my
+            coding projects. I'll go through the app and explain what the code
+            does and why it's there. The first one is is a PERN stack project
+            and you can watch it here.
+          </div>
           <h3>TECHNICAL SKILLS</h3>
           <p>
-            HTML, CSS, JavaScript, React, Next.js, Gatsby, Node/Express, MERN, REST APIs,
-            Bootstrap, Git, Responsive Web Design, Photoshop{' '}
+            HTML, CSS, JavaScript, React, Next.js, Gatsby, Node/Express, MERN,
+            REST APIs, Bootstrap, Git, Responsive Web Design, Photoshop{' '}
           </p>
           <h3>SOFT SKILLS</h3>
           <p>
@@ -50,5 +68,5 @@ export default function Home() {
       </main>
       {console.log('Social Icons are from https://designmodo.com/')}
     </div>
-  );
+  )
 }

@@ -24,7 +24,7 @@ function ProjectPage({
             <a href={demo}>Link to demo</a>
           </div>
           <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
-          <div>SKills: {skills}</div>
+          <div>Skills: {skills}</div>
           <div>Hosted on {hosting}</div>
         </div>
       </div>
