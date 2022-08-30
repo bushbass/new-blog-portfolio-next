@@ -4,7 +4,7 @@ appType: 'React SPA with PostgreSQL'
 date: '2022-08-25'
 type: 'project'
 skills: 'HTML | CSS | JavaScript | React | PostgreSQL'
-repo: 'https://github.com/bushbass/how-to-feel-old'
+repo: 'https://github.com/bushbass/fcc-pern-todo'
 demo: 'no demo for this one'
 hosting: 'localhost'
 ---

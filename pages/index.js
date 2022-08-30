@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
 import SocialIcons from '../components/SocialIcons'
@@ -37,10 +38,17 @@ export default function Home() {
 
         <section className='skills {styles.skills}'>
           <div className={`${styles.new} ${styles.container}`}>
-            <em>NEW!</em> Code walkthroughs. I'm adding video walkthroughs of my
-            coding projects. I'll go through the app and explain what the code
-            does and why it's there. The first one is is a PERN stack project
-            and you can watch it here.
+            <Link href='/projects/PERN-to-do'>
+              <a>
+                <strong>
+                  <em>NEW!</em>
+                </strong>{' '}
+                Code walkthroughs. I'm adding video walkthroughs of my coding
+                projects. I'll go through the app and explain what the code does
+                and why it's there. The first one is is a PERN stack project and{' '}
+                <strong>you can watch it here</strong>.
+              </a>
+            </Link>
           </div>
           <h3>TECHNICAL SKILLS</h3>
           <p>
