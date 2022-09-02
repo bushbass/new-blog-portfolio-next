@@ -3,7 +3,7 @@ module.exports = { reactStrictMode: true,
     return [
       {
         source: '/resume',
-        destination: 'https://docs.google.com/document/d/1OR_FV2JG7cnFN5UvEg6kjDb-0JTfI1QAdKwFYxQqjkU/edit',
+        destination: 'https://docs.google.com/document/d/13KlhMzzbGxa-U8yt1zE9qdAyGklGH1P8CJlj15OioxQ/edit?usp=sharing',
         permanent: true,
       },
     ]
