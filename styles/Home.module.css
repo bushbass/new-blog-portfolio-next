@@ -12,7 +12,9 @@
   justify-content: center;
   align-items: center;
 }
-.new  {margin-top: 20px;}
+.new {
+  margin-top: 20px;
+}
 
 .title a {
   color: #0070f3;
@@ -68,7 +70,8 @@
   border: 1px solid #bebebe;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  min-width: 300px;
+  max-width: 350px;
 }
 
 .card:hover,
@@ -104,4 +107,3 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 55px;
 }
-
