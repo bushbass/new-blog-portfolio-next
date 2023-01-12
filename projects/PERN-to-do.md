@@ -5,7 +5,7 @@ date: '2022-08-25'
 type: 'project'
 skills: 'HTML | CSS | JavaScript | React | PostgreSQL'
 repo: 'https://github.com/bushbass/fcc-pern-todo'
-demo: 'no demo for this one'
+demo: 'https://www.youtube.com/watch?v=-D5biUE5ge8'
 hosting: 'localhost'
 ---
 
