@@ -5,7 +5,7 @@ function BlogCard({ post }) {
     <Link href={`/blog/${post.slug}`}>
       <a className={styles.card}>
         <h2>{post.frontmatter.title} &rarr;</h2>
-        <p>{post.frontmatter.date}</p>
+        {/* <p>{post.frontmatter.date}</p> */}
       </a>
     </Link>
   )
