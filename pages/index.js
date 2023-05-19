@@ -19,13 +19,13 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>Alex Nielsen</h1>
         <p className={styles.designAlert}>
-          This site's design can use some work!
+          This site&lsquo;s design can use some work!
           <br />
           All of my content is still right here for now, but please
         </p>
         <p className={styles.designAlert}>
-          Take a sneak peak at the design that is getting it's final touches
-          here
+          Take a sneak peak at the design that is getting it&lsquo;s final
+          touches here
           <br />
           <a href='https://bushbass.github.io/portfolio-design/'>
             https://bushbass.github.io/portfolio-design/
