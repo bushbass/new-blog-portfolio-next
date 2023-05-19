@@ -15,6 +15,12 @@
 .new {
   margin-top: 20px;
 }
+.designAlert {
+  max-width: 700px;
+  color: rgb(161, 0, 182);
+  font-size: 1.4rem;
+  text-align: center;
+}
 
 .title a {
   color: #0070f3;
