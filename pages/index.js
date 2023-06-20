@@ -1,8 +1,8 @@
-import Head from 'next/head';
-import Link from 'next/link';
-import styles from '../styles/Home.module.css';
-import Image from 'next/image';
-import SocialIcons from '../components/SocialIcons';
+import Head from 'next/head'
+import Link from 'next/link'
+import styles from '../styles/Home.module.css'
+import Image from 'next/image'
+import SocialIcons from '../components/SocialIcons'
 
 export default function Home() {
   return (
@@ -10,29 +10,26 @@ export default function Home() {
       <Head>
         <title>Alex Nielsen - Web Developer</title>
         <meta
-          name="description"
-          content="Personal home page for Alex Nielsen.  A web developer from New Jersey, USA"
+          name='description'
+          content='Personal home page for Alex Nielsen.  A web developer from New Jersey, USA'
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel='icon' href='/favicon.ico' />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>Alex Nielsen</h1>
         <h1 className={styles.title}>Full Stack Developer</h1>
-        {/* <p className={styles.designAlert}>
-          This site&lsquo;s design can use some work!
+        <p className={styles.designAlert}>
+          This site has gotten an update!
           <br />
-          All of my content is still right here for now, but please
+          All of my old content is still right here for now, but please
         </p>
         <p className={styles.designAlert}>
-          Take a sneak peak at the design that is getting it&lsquo;s final
-          touches here
+          Take a look the new design here:
           <br />
-          <a href='https://bushbass.github.io/portfolio-design/'>
-            https://bushbass.github.io/portfolio-design/
-          </a>
-        </p> */}
-        <div className="image-wrapper">
+          <a href='https://alexnielsen.com'>https://alexnielsen.com</a>
+        </p>
+        <div className='image-wrapper'>
           {/* <Image
             src="/images/me-wearing-hat.jpg"
             alt="Alex Nielsen wearing a baseball cap"
@@ -40,20 +37,19 @@ export default function Home() {
             height={200}
           /> */}
           <iframe
-            width="300"
-            height="300"
-            src="https://www.youtube.com/embed/j44vqjIN1kw"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            width='300'
+            height='300'
+            src='https://www.youtube.com/embed/j44vqjIN1kw'
+            title='YouTube video player'
+            frameBorder='0'
+            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
             allowFullScreen
-            rel="0"
-          ></iframe>
+            rel='0'></iframe>
         </div>
 
-        <section className="skills {styles.skills}">
+        <section className='skills {styles.skills}'>
           <div className={`${styles.new} ${styles.container}`}>
-            <Link href="/projects/PERN-to-do">
+            <Link href='/projects/PERN-to-do'>
               <a>
                 <strong>
                   <em>NEW!</em>
@@ -91,5 +87,5 @@ export default function Home() {
       </main>
       {console.log('Social Icons are from https://designmodo.com/')}
     </div>
-  );
+  )
 }
